@@ -1,0 +1,16 @@
+<h1>This is App Main</h1>
+<div class="containter">
+    <div class="row">
+        <a-component>
+            <ul>
+                <li ng-repeat="item in items"><a ui-sref="{{item.id}}">{{item.name}}</a></li>
+            </ul>
+        </a-component>
+    </div>
+    <div class="row">
+        <div ui-view></div>
+    </div>
+    <div class="row">
+        <a ui-sref="1">Thias faisd f</a>
+    </div>
+</div>
